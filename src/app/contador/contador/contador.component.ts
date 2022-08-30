@@ -6,7 +6,7 @@ import { Component } from '@angular/core';
     
     <h1> {{ title }} </h1>
 
-    <button (click)="acumular(base)"> - {{ base }} {{ title}} </button>
+    <button (click)="acumular(-base)"> - {{ base }} {{ title}} </button>
 
     <span> {{ numero }} </span>
 
